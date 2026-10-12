@@ -1,0 +1,54 @@
+{
+  "countries": [
+    {
+      "country": "Portugal",
+      "days": 424,
+      "missing_hospital": 0,
+      "missing_icu": 0,
+      "vaccination_reports": 61,
+      "stale_vaccination_days_over_14": 0
+    },
+    {
+      "country": "France",
+      "days": 424,
+      "missing_hospital": 0,
+      "missing_icu": 0,
+      "vaccination_reports": 429,
+      "stale_vaccination_days_over_14": 0
+    },
+    {
+      "country": "Italy",
+      "days": 424,
+      "missing_hospital": 0,
+      "missing_icu": 0,
+      "vaccination_reports": 429,
+      "stale_vaccination_days_over_14": 0
+    },
+    {
+      "country": "Netherlands",
+      "days": 424,
+      "missing_hospital": 0,
+      "missing_icu": 0,
+      "vaccination_reports": 60,
+      "stale_vaccination_days_over_14": 0
+    },
+    {
+      "country": "Spain",
+      "days": 424,
+      "missing_hospital": 0,
+      "missing_icu": 0,
+      "vaccination_reports": 291,
+      "stale_vaccination_days_over_14": 0
+    }
+  ],
+  "rows": 2120,
+  "start": "2021-01-01",
+  "end": "2022-02-28",
+  "forecast_rows": 11200,
+  "models": 5,
+  "rolling_origins": 16,
+  "evaluation_origins": 10,
+  "evaluation_forecast_rows": 7000,
+  "horizon_metric_rows": 700,
+  "adaptive_weight_rows": 1280
+}

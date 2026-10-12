@@ -1,0 +1,64 @@
+{
+  "version": "1.0.0",
+  "retrieved_at": "2026-10-07",
+  "snapshot_period": {
+    "start": "2021-01-01",
+    "end": "2022-02-28"
+  },
+  "countries": [
+    "Portugal",
+    "France",
+    "Italy",
+    "Netherlands",
+    "Spain"
+  ],
+  "collection": "Our World in Data COVID-19 archive",
+  "source_revision": "dc00e7296b17ab5548092c9e388b6fac6751f095",
+  "sources": [
+    {
+      "name": "hospital.csv",
+      "url": "https://raw.githubusercontent.com/owid/covid-19-data/dc00e7296b17ab5548092c9e388b6fac6751f095/public/data/hospitalizations/covid-hospitalizations.csv",
+      "sha256": "80a748becac1114a5cfe8836078e7a98602586cce303f8c32ac1d06fb7140285",
+      "downloaded_bytes": 14185001
+    },
+    {
+      "name": "vaccinations-Portugal.csv",
+      "url": "https://raw.githubusercontent.com/owid/covid-19-data/dc00e7296b17ab5548092c9e388b6fac6751f095/public/data/vaccinations/country_data/Portugal.csv",
+      "sha256": "7efdd218021d07c00c2d8b988251dc10dbecad46cf8a58b2644368aebf80722d",
+      "downloaded_bytes": 35395
+    },
+    {
+      "name": "vaccinations-France.csv",
+      "url": "https://raw.githubusercontent.com/owid/covid-19-data/dc00e7296b17ab5548092c9e388b6fac6751f095/public/data/vaccinations/country_data/France.csv",
+      "sha256": "706c2fceef6655cfd9783eb96c90a4dff60b3898de5f071d3d9b3d1c8c69c7ad",
+      "downloaded_bytes": 221184
+    },
+    {
+      "name": "vaccinations-Italy.csv",
+      "url": "https://raw.githubusercontent.com/owid/covid-19-data/dc00e7296b17ab5548092c9e388b6fac6751f095/public/data/vaccinations/country_data/Italy.csv",
+      "sha256": "6a1a8816b44675dbdb0da5c88d8c68465d7fbdf136c6306baebd09594a6de8be",
+      "downloaded_bytes": 246634
+    },
+    {
+      "name": "vaccinations-Netherlands.csv",
+      "url": "https://raw.githubusercontent.com/owid/covid-19-data/dc00e7296b17ab5548092c9e388b6fac6751f095/public/data/vaccinations/country_data/Netherlands.csv",
+      "sha256": "f1b62ae907d11a80f9e826b199210aabd7b2ef5587ee4f48c9203ef083c0345d",
+      "downloaded_bytes": 29117
+    },
+    {
+      "name": "vaccinations-Spain.csv",
+      "url": "https://raw.githubusercontent.com/owid/covid-19-data/dc00e7296b17ab5548092c9e388b6fac6751f095/public/data/vaccinations/country_data/Spain.csv",
+      "sha256": "75215319e8fc8c0d4fdfda0fdbd4de42ae6335be1997d284fdd66914571751b0",
+      "downloaded_bytes": 78718
+    }
+  ],
+  "local_files": {
+    "hospital_occupancy.csv": "ae41373cf9555c693e121d3ee9c020272a0bf8e9eb533ae7246fa3a96d2a17e7",
+    "vaccinations.csv": "7921c1dcbf90e8d2cf92aa028b93b00b6481d950de632af9df14ec0c6c83c2cd"
+  },
+  "rows": {
+    "hospital_occupancy": 8480,
+    "vaccinations": 1270
+  },
+  "reuse": "OWID-produced compilation: CC BY 4.0. Original national source terms also apply; see docs/data_sources.md."
+}

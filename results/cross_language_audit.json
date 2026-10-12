@@ -1,0 +1,15 @@
+{
+  "method": "archived R outputs comparison",
+  "fresh_execution": false,
+  "status": "passed",
+  "forecast_rows": 6720,
+  "models": [
+    "dynamic",
+    "persistence",
+    "seasonal"
+  ],
+  "tolerance": 1e-05,
+  "maximum_absolute_prediction_difference": 1.0913936421275139e-10,
+  "r_results_sha256": "130a8ca35c9acdf36ae783ea7bcab831fe3cb31c7b2b07bfb7671752dd61822b",
+  "r_script_sha256": "56ba19b0312d1c9a2cbe3d7925840608bdd7dba12ed50e8bb6a4cbd8137dcee7"
+}
