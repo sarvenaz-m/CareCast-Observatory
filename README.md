@@ -2,11 +2,13 @@
 
 **A clear view of hospital pressure, forecast uncertainty and planning headroom.**
 
-[![CareCast Observatory research overview](assets/preview.png)](index.html)
+**[Open the live demo ↗](https://sarvenaz-m.github.io/CareCast-Observatory/)**
+
+[![CareCast Observatory research overview](assets/preview.png)](https://sarvenaz-m.github.io/CareCast-Observatory/)
 
 **Version 1** · Python + R · Five European countries · Real public observations · Offline browser explorer
 
-[Interactive explorer](index.html) · [Methods](docs/methodology.md) · [Data provenance](docs/data_sources.md) · [Benchmark results](results/metrics.csv)
+[Live demo](https://sarvenaz-m.github.io/CareCast-Observatory/) · [Methods](docs/methodology.md) · [Data provenance](docs/data_sources.md) · [Benchmark results](results/metrics.csv)
 
 CareCast is a reproducible study of national hospital and intensive-care occupancy. It combines an attributed historical data snapshot, five forecasting methods, temporal validation, calibrated uncertainty and an interactive planning workspace.
 
@@ -14,7 +16,7 @@ The included observations cover **1 January 2021 to 28 February 2022** in **Port
 
 ## Explore the evidence
 
-Open `index.html` in your browser. Data, charts and controls run locally without accounts, external scripts or access keys.
+[Explore the live observatory](https://sarvenaz-m.github.io/CareCast-Observatory/) or open `index.html` locally. Data, charts and controls run without accounts, external scripts or access keys.
 
 - Inspect hospital or ICU trajectories and fourteen-day forecasts.
 - Compare all five methods on the same evaluation dates.
@@ -100,4 +102,5 @@ The data contain national counts and dates, with no personal clinical records, b
 | `tests/` | Integrity, temporal boundaries and numerical checks |
 
 Code: MIT. Data: retain the original attribution and applicable source terms described in [Data provenance](docs/data_sources.md).
+
 
